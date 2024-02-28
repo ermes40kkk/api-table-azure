@@ -1,0 +1,8 @@
+{
+    "appService.zipIgnorePattern": [
+        "node_modules{,/**}",
+        ".vscode{,/**}"
+    ],
+    "appService.defaultWebAppToDeploy": "/subscriptions/20959b37-7893-41aa-83f6-5705e36ae478/resourceGroups/mossino_group/providers/Microsoft.Web/sites/mossino",
+    "appService.deploySubpath": "dist\\api-table-azure"
+}

@@ -13,7 +13,7 @@ export class APIServiceService {
    }
 
   getData() : Promise<any>{
-    return this.httpc.get('https://bill.wonderfulmoss-e0d38d54.northeurope.azurecontainerapps.io/api/bills').
+    return this.httpc.get('https://azureapi-a4mu.onrender.com/api/bills').
     toPromise();
     //https://jsonplaceholder.typicode.com/todos
   }
